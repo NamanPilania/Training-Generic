@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: black; */
+}
+nav{
+    display: flex;
+    align-items: start;
+    /* margin: 8px; */
+    /* justify-content: space-between; */
+    /* text-decoration: none; */
+    list-style-type: none;
+    gap: 1px;
+    font-size: 150%;
+    /* position: fixed; */
+    /* background-color: wheat; */
+}
+ul{
+    display: flex;
+    align-items: start;
+    margin: 8px;
+    /* justify-content: space-between; */
+    /* text-decoration: none; */
+    list-style-type: none;
+    gap: 5px;
+}
+#search{
+    /* align-items: center; */
+    border-radius: 30%;
+    /* height: 400; */
+    /* width: 400; */
+}
+input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 16px;
+    /* font-size: 17px; */
+    border-radius: 50px;
+  }
+.SignUp{
+    border-radius: 20px;
+    padding: 1px 5px;
+    border: 1px rgb(73, 196, 73) solid;
+    background-color: rgb(73, 196, 73);
+    color: white;
+}
+.body-section{
+    /* background-color: linean; */
+    background-image: linear-gradient(rgb(54, 50, 50),grey);
+    width: 100hw;
+    height: 100vh;
+    color: white;
+    background-image: url(./hurray.png);
+    /* background: none; */
+    filter: blur();
+    background-color: rgb(73, 70, 70);
+    background-position: right ;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+
+}
+.navbar ul{ 
+    color: white;
+    gap: 25px;
+    margin: 10ox;
+    background-color: black;
+    padding: 10px;
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#heading{
+    margin-top: 10rem;
+    font-size: 500%;
+    margin-left: 50px;
+}
+h2{
+    margin-top: 30px;
+    font-size: 200%;
+    margin-left: 40px;
+
+}
+#find{
+    width: 110%;
+    height: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    /* padding-left: 20rem; */
+    text-align: center;
+    display: inline;
+}
+.body-section p , .body-section h3{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline  ;
+    color: bisque;
+    
+}
+button{
+    display: inline;
+    background: none;
+}
+\.custom-shape-divider-bottom-1724326004 {
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1724326004 svg {
+    position: relative;
+    display: inline;
+    /* width: calc(169%);
+     */
+     width: 80rem;
+    height: 99px;
+}
+
+.custom-shape-divider-bottom-1724326004 .shape-fill {
+    /* fill: #FFFFFF; */
+    fill: rgb(73, 70, 70);
+}
+
+li:hover{
+    /* border: solid 1px black; */
+    background-color: rgb(56, 199, 56);
+    height:max-content;
+
+}
+.card{
+    background-color: #ffc0c7;
+    /* width: 40%; */
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+
+    /* margin-left: 50px; */
+    /* padding: 50px; */
+    /* height: 20vh; */
+    font-size: 145%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+.python{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+}
+.python-inner{
+    font-size: 200%;
+    column-count: 1;
+}
+.btn{
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: x-large;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+.card-section{
+    background-color: #282a35;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-column: span 2;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 50px;
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.tut{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 200%;
+    margin: 20px;
+}
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 20px;
+}
